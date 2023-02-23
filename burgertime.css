@@ -1,0 +1,83 @@
+.burger{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height: 450px;
+    position: relative;
+    margin: auto;
+    top: 75px;
+}
+.top-bread{
+    position: absolute;
+    top: 25px;
+    width: 75%;
+    right: 0;
+    left: 0;
+    z-index: 8;
+}.meat{
+    position: absolute;
+    top: 10%;
+    width: 75%;
+    right: 0;
+    left: 0;
+    z-index: 7;
+}.onion{
+    position: absolute;
+    width: 75%;
+    top: 20%;
+    right: 0;
+    left: 0;
+    z-index: 6;
+}.cheese{
+    position: absolute;
+    width: 75%;
+    top: 25%;
+    right: 0;
+    left: 0;
+    z-index: 5;
+}.tomato{
+    position: absolute;
+    width: 75%;
+    top: 25%;
+    right: 0;
+    left: 0;
+    z-index: 4;
+}.salad{
+    position: absolute;
+    width: 75%;
+    top: 30%;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}.pickle{
+    position: absolute;
+    width: 75%;
+    top: 40%;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}.bot-bread{
+    position: absolute;
+    width: 75%;
+    top: 45%;   
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#meat{
+    display: none;
+}
+#cheese{
+    display: none;
+}
+#onion{
+    display: none;
+}
+#pickle{
+    display: none;
+}
+#salad{    display: none;
+}
+#tomato{
+    display: none;
+}
